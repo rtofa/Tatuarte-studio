@@ -35,7 +35,7 @@ const Hero = () => {
             TATUARTE
           </span>
           <br />
-          <span className="text-3xl md:text-4xl font-light">STUDIO</span>
+          <span className="bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-transparent bg-clip-text"></span>
         </motion.h1>
 
         <motion.p
@@ -44,7 +44,7 @@ const Hero = () => {
           transition={{ delay: 0.5, duration: 0.8 }}
           className="text-xl md:text-2xl text-center mb-12 max-w-2xl px-4"
         >
-          Arte que marca sua história para sempre
+          Elevando a Arte Corporal à Excelência!
         </motion.p>
 
         <motion.div

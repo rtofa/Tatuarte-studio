@@ -34,7 +34,7 @@ export const artists: Artist[] = [
     name: "Tito",
     instagram: "@titotatuarte",
     image: "../public/tatuadores/Tito.jpg",
-    specialties: ["BlackWork", "Horror Tattoo"]
+    specialties: ["BlackWork"]
   }
 ];
 
@@ -58,36 +58,71 @@ export const testimonials: Testimonial[] = [
 export const tattooWorks: TattooWork[] = [
   {
     id: 1,
-    image: "https://images.unsplash.com/photo-1542856391-010fb87dcfed?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
+    image: "../public/tatuagens/RealismoLeaoG.jpg",
     category: "Realismo",
-    title: "Retrato Leão",
+    title: "Leão",
     artist: "Gambareli"
   },
   {
     id: 2,
-    image: "https://images.unsplash.com/photo-1611501275019-9b5cda9563c9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-    category: "BlackWork",
-    title: "Linha Fina",
-    artist: "Junior Cavini"
+    image: "../public/tatuagens/RealismoJesusG.jpg",
+    category: "Realismo",
+    title: "Jesus",
+    artist: "Gambareli"
   },
   {
     id: 3,
-    image: "../public/tatuagens/GogetaComics.jpg",
-    category: "Comics",
-    title: "Gogeta Dragon Ball",
-    artist: "Junior Cavini"
+    image: "../public/tatuagens/BlackWorkC.jpg",
+    category: "BlackWork",
+    title: "Poseidon",
+    artist: "Carol Cavini"
   },
   {
     id: 4,
-    image: "https://images.unsplash.com/photo-1562962230-16e4623d36e6?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-    category: "Fine Line",
-    title: "Dragon Ball",
+    image: "../public/tatuagens/BlackWorkC.jpg",
+    category: "BlackWork",
+    title: "Poseidon",
+    artist: "Carol Cavini"
+  },
+  {
+    id: 5,
+    image: "../public/tatuagens/BlackWorkC.jpg",
+    category: "BlackWork",
+    title: "Poseidon",
+    artist: "Carol Cavini"
+  },
+  {
+    id: 6,
+    image: "../public/tatuagens/BlackWorkC.jpg",
+    category: "BlackWork",
+    title: "Poseidon",
+    artist: "Carol Cavini"
+  },
+  {
+    id: 7,
+    image: "../public/tatuagens/BlackWorkC.jpg",
+    category: "BlackWork",
+    title: "Poseidon",
+    artist: "Carol Cavini"
+  },
+  {
+    id: 8,
+    image: "../public/tatuagens/BlackWorkDragonC.jpg",
+    category: "BlackWork",
+    title: "Dragão",
+    artist: "Carol Cavini"
+  },
+  {
+    id: 9,
+    image: "../public/tatuagens/WhipshadingC.jpg",
+    category: "Whipshading",
+    title: "Caveira",
     artist: "Carol Cavini"
   },
   {
     id: 5,
     image: "https://images.unsplash.com/photo-1562962230-16e4623d36e6?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-    category: "Horror Tattoo",
+    category: "Tattoo",
     title: "Dragon Ball",
     artist: "Tito"
   },
@@ -110,6 +145,34 @@ export const tattooWorks: TattooWork[] = [
     image: "../public/tatuagens/airtonSennaWhipshading.mp4",
     category: "Whipshading",
     title: "Airton Senna em processo",
+    artist: "Junior Cavini"
+  },
+  {
+    id: 9,
+    image: "../public/tatuagens/ArteAutoral.mp4",
+    category: "Whipshading",
+    title: "Autoral",
+    artist: "Junior Cavini"
+  },
+  {
+    id: 10,
+    image: "../public/tatuagens/LoboWhips.jpg",
+    category: "Whipshading",
+    title: "Lobo",
+    artist: "Junior Cavini"
+  },
+  {
+    id: 11,
+    image: "../public/tatuagens/WolwerineJ.mp4",
+    category: "Comics",
+    title: "Wolverine",
+    artist: "Junior Cavini"
+  },
+  {
+    id: 12,
+    image: "../public/tatuagens/GogetaComics.jpg",
+    category: "Comics",
+    title: "Gogeta Dragon Ball",
     artist: "Junior Cavini"
   },
 
